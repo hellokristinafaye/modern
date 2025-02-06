@@ -112,3 +112,13 @@
     width: 50%;
     display: block;
 }
+.row h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.indicator {
+    max-width: 220px;
+    margin: 100px 0 50px;
+}
