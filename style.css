@@ -14,3 +14,30 @@
     background-position: center;
     position: relative;
 }
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background: rgba(0, 2, 63, .9);
+    text-align: center;
+}
+.sidebar img {
+    width: 22px;
+    display: block;
+    margin: 50px auto 80px;
+    cursor: pointer;
+}
+.social-media {
+    width: 100%;   
+    height: 50%;
+    background: #ed383d;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px; 
+}
